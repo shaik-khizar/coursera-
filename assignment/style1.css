@@ -1,0 +1,84 @@
+{
+  box-sizing: border-box;
+}
+
+h1 {
+	font-family: initial;
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	margin-bottom: 30px;
+}
+
+p {
+	padding: 15px 5px 0px 5px;
+	font-family: initial;
+	font-size: 20px;
+	position: relative;
+}
+
+.section { 
+	background-color: grey;
+   	border: 2px solid black;
+   	margin-top: 20px; 
+   	margin-right: 20px; 
+   	padding: 3px;
+   	text-align: justify;
+   	position: relative;
+ }
+
+span {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; top :0; right: 0; margin: 0;
+	position: absolute;
+}
+#a1 {
+	background-color: red;
+}
+#a2 {
+	background-color: green;
+}
+#a3 {
+	background-color: yellow;
+}
+
+
+.row {
+	width: 100%;
+}
+
+/* PC view */
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+/* mobile phone view */
+@media (max-width: 767px)  {
+  
+  .col-sx-12 {
+  	float: left;
+    width: 100%;
+  }
+}
